@@ -20,4 +20,6 @@ initialize_system() {
 
     echo "----------------------------------------------"
     echo "Directory initialization complete."
+}
+
 
