@@ -22,4 +22,3 @@ initialize_system() {
     echo "Directory initialization complete."
 }
 
-
