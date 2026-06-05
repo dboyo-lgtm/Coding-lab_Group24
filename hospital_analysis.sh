@@ -1,7 +1,7 @@
 #!/bin/bash
 
 process_vitals() {
-<<<<<<< HEAD
+
     echo "Scanning vitals for CRITICAL events..."
     mkdir -p reports
     > reports/critical_alerts.txt
@@ -13,7 +13,7 @@ process_vitals() {
 
     echo "Critical alerts saved to reports/critical_alerts.txt"
 }
-=======
+
     mkdir -p reports
 
     grep "CRITICAL" active_logs/heart_rate_log.log active_logs/temperature_log.log | \
@@ -40,4 +40,4 @@ water_audit() {
 
 process_vitals
 water_audit
->>>>>>> main
+
