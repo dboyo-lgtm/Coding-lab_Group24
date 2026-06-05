@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 
 main() {
     initialize_system
@@ -10,6 +11,8 @@ main() {
 
 main
 
+=======
+>>>>>>> main
 initialize_system() {
     echo "=============================================="
     echo "Initializing KNH System Environment..."
@@ -71,5 +74,8 @@ secure_data() {
     echo ""
     echo "[✓] active_logs is now secured. No group or public access."
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 initialize_system
